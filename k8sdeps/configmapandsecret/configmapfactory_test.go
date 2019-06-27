@@ -7,12 +7,12 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/damienr74/kustomize/v3/pkg/fs"
+	"github.com/damienr74/kustomize/v3/pkg/loader"
+	"github.com/damienr74/kustomize/v3/pkg/types"
+	"github.com/damienr74/kustomize/v3/pkg/validators"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/loader"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
-	"sigs.k8s.io/kustomize/v3/pkg/validators"
 )
 
 func makeEnvConfigMap(name string) *corev1.ConfigMap {

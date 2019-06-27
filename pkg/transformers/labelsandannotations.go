@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers/config"
+	"github.com/damienr74/kustomize/v3/pkg/resmap"
+	"github.com/damienr74/kustomize/v3/pkg/transformers/config"
 )
 
 // mapTransformer applies a string->string map to fieldSpecs.

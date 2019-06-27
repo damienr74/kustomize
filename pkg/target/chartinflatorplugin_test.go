@@ -8,10 +8,10 @@
 package target_test
 
 import (
-	"sigs.k8s.io/kustomize/v3/pkg/plugins"
+	"github.com/damienr74/kustomize/v3/pkg/plugins"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/kusttest"
+	"github.com/damienr74/kustomize/v3/pkg/kusttest"
 )
 
 // This is an example of using a helm chart as a base,

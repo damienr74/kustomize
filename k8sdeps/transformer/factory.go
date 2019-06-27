@@ -5,9 +5,9 @@
 package transformer
 
 import (
-	"sigs.k8s.io/kustomize/v3/k8sdeps/transformer/patch"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers"
+	"github.com/damienr74/kustomize/v3/k8sdeps/transformer/patch"
+	"github.com/damienr74/kustomize/v3/pkg/resource"
+	"github.com/damienr74/kustomize/v3/pkg/transformers"
 )
 
 // FactoryImpl makes patch transformer and name hash transformer

@@ -6,7 +6,7 @@ package hasher_test
 import (
 	"testing"
 
-	. "sigs.k8s.io/kustomize/v3/pkg/hasher"
+	. "github.com/damienr74/kustomize/v3/pkg/hasher"
 )
 
 func TestSortArrayAndComputeHash(t *testing.T) {

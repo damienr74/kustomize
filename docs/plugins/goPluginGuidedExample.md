@@ -33,7 +33,7 @@ DEMO=$(mktemp -d)
 Need v3.0.0 for what follows:
 
 ```
-GOBIN=$DEMO/bin go get sigs.k8s.io/kustomize/v3/cmd/kustomize@v3.0.0-pre
+GOBIN=$DEMO/bin go get github.com/damienr74/kustomize/v3/cmd/kustomize@v3.0.0-pre
 ```
 
 ## Make a home for plugins

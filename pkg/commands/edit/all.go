@@ -4,14 +4,14 @@
 package edit
 
 import (
+	"github.com/damienr74/kustomize/v3/pkg/commands/edit/add"
+	"github.com/damienr74/kustomize/v3/pkg/commands/edit/fix"
+	"github.com/damienr74/kustomize/v3/pkg/commands/edit/remove"
+	"github.com/damienr74/kustomize/v3/pkg/commands/edit/set"
+	"github.com/damienr74/kustomize/v3/pkg/fs"
+	"github.com/damienr74/kustomize/v3/pkg/ifc"
+	"github.com/damienr74/kustomize/v3/pkg/loader"
 	"github.com/spf13/cobra"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/edit/add"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/edit/fix"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/edit/remove"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/edit/set"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
-	"sigs.k8s.io/kustomize/v3/pkg/loader"
 )
 
 // NewCmdEdit returns an instance of 'edit' subcommand.

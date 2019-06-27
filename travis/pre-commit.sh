@@ -35,14 +35,14 @@ function testGoTest {
 # These tests require the helm program, and at the moment
 # we're not asking travis to install helm.
 function testNoTravisGoTest {
-  go test -v sigs.k8s.io/kustomize/v3/pkg/target \
+  go test -v github.com/damienr74/kustomize/v3/pkg/target \
       -run TestChartInflatorPlugin -tags=notravis
-  go test -v sigs.k8s.io/kustomize/v3/plugin/someteam.example.com/v1/chartinflator/... \
+  go test -v github.com/damienr74/kustomize/v3/plugin/someteam.example.com/v1/chartinflator/... \
     -run TestChartInflator -tags=notravis
   mdrip --mode test --label helmtest README.md ./examples/chart.md
-  go test -v sigs.k8s.io/kustomize/v3/plugin/someteam.example.com/v1/validator/... \
+  go test -v github.com/damienr74/kustomize/v3/plugin/someteam.example.com/v1/validator/... \
        -run TestValidatorHappy -tags=notravis
-  go test -v sigs.k8s.io/kustomize/v3/plugin/someteam.example.com/v1/validator/... \
+  go test -v github.com/damienr74/kustomize/v3/plugin/someteam.example.com/v1/validator/... \
        -run TestValidatorUnHappy -tags=notravis
 }
 
@@ -81,7 +81,7 @@ else
   unset GOPATH
 fi
 echo "oldGoPath=$oldGoPath"
-export XDG_CONFIG_HOME=$oldGoPath/src/sigs.k8s.io
+export XDG_CONFIG_HOME=$oldGoPath/src/github.com/damienr74
 echo "XDG_CONFIG_HOME=$XDG_CONFIG_HOME"
 if [ ! -d "$XDG_CONFIG_HOME" ]; then
   echo "$XDG_CONFIG_HOME is not a directory."

@@ -19,12 +19,12 @@ package transformer
 import (
 	"fmt"
 
+	"github.com/damienr74/kustomize/v3/pkg/resid"
+	"github.com/damienr74/kustomize/v3/pkg/resmap"
+	"github.com/damienr74/kustomize/v3/pkg/resource"
+	"github.com/damienr74/kustomize/v3/pkg/transformers"
 	jsonpatch "github.com/evanphx/json-patch"
 	"github.com/pkg/errors"
-	"sigs.k8s.io/kustomize/v3/pkg/resid"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers"
 	"sigs.k8s.io/yaml"
 )
 

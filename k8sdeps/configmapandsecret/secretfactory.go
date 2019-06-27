@@ -6,8 +6,8 @@ package configmapandsecret
 import (
 	"fmt"
 
+	"github.com/damienr74/kustomize/v3/pkg/types"
 	corev1 "k8s.io/api/core/v1"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
 )
 
 func makeFreshSecret(

@@ -9,11 +9,11 @@ import (
 	"io"
 	"strings"
 
+	"github.com/damienr74/kustomize/v3/k8sdeps/configmapandsecret"
+	"github.com/damienr74/kustomize/v3/pkg/ifc"
+	"github.com/damienr74/kustomize/v3/pkg/types"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/util/yaml"
-	"sigs.k8s.io/kustomize/v3/k8sdeps/configmapandsecret"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
 )
 
 // KunstructuredFactoryImpl hides construction using apimachinery types.

@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/k8sdeps/kunstruct"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/resmaptest"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
+	"github.com/damienr74/kustomize/v3/k8sdeps/kunstruct"
+	"github.com/damienr74/kustomize/v3/pkg/resmap"
+	"github.com/damienr74/kustomize/v3/pkg/resmaptest"
+	"github.com/damienr74/kustomize/v3/pkg/resource"
 )
 
 func TestNameReferenceHappyRun(t *testing.T) {

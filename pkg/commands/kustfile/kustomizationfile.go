@@ -26,9 +26,9 @@ import (
 	"regexp"
 	"strings"
 
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/pgmconfig"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
+	"github.com/damienr74/kustomize/v3/pkg/fs"
+	"github.com/damienr74/kustomize/v3/pkg/pgmconfig"
+	"github.com/damienr74/kustomize/v3/pkg/types"
 	"sigs.k8s.io/yaml"
 )
 

@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"strings"
 
+	"github.com/damienr74/kustomize/v3/pkg/gvk"
+	"github.com/damienr74/kustomize/v3/pkg/ifc"
 	"github.com/go-openapi/spec"
 	"github.com/pkg/errors"
 	"k8s.io/kube-openapi/pkg/common"
-	"sigs.k8s.io/kustomize/v3/pkg/gvk"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
 	"sigs.k8s.io/yaml"
 )
 

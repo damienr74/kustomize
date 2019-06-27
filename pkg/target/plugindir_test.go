@@ -9,16 +9,16 @@ import (
 	"path/filepath"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/k8sdeps/kunstruct"
-	"sigs.k8s.io/kustomize/v3/k8sdeps/transformer"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/kusttest"
-	"sigs.k8s.io/kustomize/v3/pkg/loader"
-	"sigs.k8s.io/kustomize/v3/pkg/plugins"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
-	"sigs.k8s.io/kustomize/v3/pkg/target"
-	"sigs.k8s.io/kustomize/v3/pkg/validators"
+	"github.com/damienr74/kustomize/v3/k8sdeps/kunstruct"
+	"github.com/damienr74/kustomize/v3/k8sdeps/transformer"
+	"github.com/damienr74/kustomize/v3/pkg/fs"
+	"github.com/damienr74/kustomize/v3/pkg/kusttest"
+	"github.com/damienr74/kustomize/v3/pkg/loader"
+	"github.com/damienr74/kustomize/v3/pkg/plugins"
+	"github.com/damienr74/kustomize/v3/pkg/resmap"
+	"github.com/damienr74/kustomize/v3/pkg/resource"
+	"github.com/damienr74/kustomize/v3/pkg/target"
+	"github.com/damienr74/kustomize/v3/pkg/validators"
 )
 
 func TestPluginDir(t *testing.T) {

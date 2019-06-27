@@ -4,11 +4,11 @@
 package resmap
 
 import (
+	"github.com/damienr74/kustomize/v3/internal/kusterr"
+	"github.com/damienr74/kustomize/v3/pkg/ifc"
+	"github.com/damienr74/kustomize/v3/pkg/resource"
+	"github.com/damienr74/kustomize/v3/pkg/types"
 	"github.com/pkg/errors"
-	"sigs.k8s.io/kustomize/v3/internal/kusterr"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
 )
 
 // Factory makes instances of ResMap.

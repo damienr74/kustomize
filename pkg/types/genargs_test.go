@@ -19,7 +19,7 @@ package types_test
 import (
 	"testing"
 
-	. "sigs.k8s.io/kustomize/v3/pkg/types"
+	. "github.com/damienr74/kustomize/v3/pkg/types"
 )
 
 func TestGenArgs_String(t *testing.T) {

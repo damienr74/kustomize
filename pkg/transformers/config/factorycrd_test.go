@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/internal/loadertest"
-	"sigs.k8s.io/kustomize/v3/pkg/gvk"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
+	"github.com/damienr74/kustomize/v3/internal/loadertest"
+	"github.com/damienr74/kustomize/v3/pkg/gvk"
+	"github.com/damienr74/kustomize/v3/pkg/ifc"
 )
 
 // This defines two CRD's:  Bee and MyKind.

@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
+	"github.com/damienr74/kustomize/v3/pkg/fs"
 )
 
 // Used as a temporary non-empty occupant of the cloneDir

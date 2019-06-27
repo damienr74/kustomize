@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/kusttest"
-	"sigs.k8s.io/kustomize/v3/pkg/plugins"
+	"github.com/damienr74/kustomize/v3/pkg/kusttest"
+	"github.com/damienr74/kustomize/v3/pkg/plugins"
 )
 
 func TestValidatorHappy(t *testing.T) {

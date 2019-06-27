@@ -6,7 +6,7 @@ package target_test
 import (
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/kusttest"
+	"github.com/damienr74/kustomize/v3/pkg/kusttest"
 )
 
 func makeStatefulSetKustomization(th *kusttest_test.KustTestHarness) {

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/damienr74/kustomize/v3/pkg/commands/kustfile"
+	"github.com/damienr74/kustomize/v3/pkg/fs"
 	"github.com/spf13/cobra"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/kustfile"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
 )
 
 type addBaseOptions struct {

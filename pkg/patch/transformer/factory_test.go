@@ -21,12 +21,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/damienr74/kustomize/v3/internal/loadertest"
+	"github.com/damienr74/kustomize/v3/k8sdeps/kunstruct"
+	"github.com/damienr74/kustomize/v3/pkg/resmaptest"
+	"github.com/damienr74/kustomize/v3/pkg/resource"
+	"github.com/damienr74/kustomize/v3/pkg/types"
 	"gopkg.in/yaml.v2"
-	"sigs.k8s.io/kustomize/v3/internal/loadertest"
-	"sigs.k8s.io/kustomize/v3/k8sdeps/kunstruct"
-	"sigs.k8s.io/kustomize/v3/pkg/resmaptest"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
 )
 
 var rf = resource.NewFactory(

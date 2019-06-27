@@ -17,8 +17,8 @@ limitations under the License.
 package config
 
 import (
+	"github.com/damienr74/kustomize/v3/pkg/gvk"
 	"reflect"
-	"sigs.k8s.io/kustomize/v3/pkg/gvk"
 	"testing"
 )
 

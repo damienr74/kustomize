@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/internal/loadertest"
-	. "sigs.k8s.io/kustomize/v3/pkg/resource"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
+	"github.com/damienr74/kustomize/v3/internal/loadertest"
+	. "github.com/damienr74/kustomize/v3/pkg/resource"
+	"github.com/damienr74/kustomize/v3/pkg/types"
 )
 
 func TestSliceFromPatches(t *testing.T) {

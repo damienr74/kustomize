@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	. "sigs.k8s.io/kustomize/v3/pkg/expansion"
+	. "github.com/damienr74/kustomize/v3/pkg/expansion"
 )
 
 type expected struct {

@@ -4,13 +4,13 @@
 package target
 
 import (
+	"github.com/damienr74/kustomize/v3/pkg/image"
+	"github.com/damienr74/kustomize/v3/pkg/plugins"
+	"github.com/damienr74/kustomize/v3/pkg/transformers"
+	"github.com/damienr74/kustomize/v3/pkg/transformers/config"
+	"github.com/damienr74/kustomize/v3/pkg/types"
+	"github.com/damienr74/kustomize/v3/plugin/builtin"
 	"github.com/pkg/errors"
-	"sigs.k8s.io/kustomize/v3/pkg/image"
-	"sigs.k8s.io/kustomize/v3/pkg/plugins"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers/config"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
-	"sigs.k8s.io/kustomize/v3/plugin/builtin"
 	"sigs.k8s.io/yaml"
 )
 

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"sigs.k8s.io/kustomize/v3/pkg/gvk"
+	"github.com/damienr74/kustomize/v3/pkg/gvk"
 )
 
 // FieldSpec completely specifies a kustomizable field in

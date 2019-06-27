@@ -5,12 +5,12 @@
 package loadertest
 
 import (
+	"github.com/damienr74/kustomize/v3/pkg/fs"
+	"github.com/damienr74/kustomize/v3/pkg/ifc"
+	"github.com/damienr74/kustomize/v3/pkg/loader"
+	"github.com/damienr74/kustomize/v3/pkg/types"
+	"github.com/damienr74/kustomize/v3/pkg/validators"
 	"log"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
-	"sigs.k8s.io/kustomize/v3/pkg/loader"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
-	"sigs.k8s.io/kustomize/v3/pkg/validators"
 )
 
 // FakeLoader encapsulates the delegate Loader and the fake file system.

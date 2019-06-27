@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/damienr74/kustomize/v3/pkg/gvk"
 	"gopkg.in/yaml.v2"
-	"sigs.k8s.io/kustomize/v3/pkg/gvk"
 )
 
 func TestGVK(t *testing.T) {

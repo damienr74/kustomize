@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/pgmconfig"
+	"github.com/damienr74/kustomize/v3/pkg/pgmconfig"
 )
 
 // EnvForTest manages the plugin test environment.

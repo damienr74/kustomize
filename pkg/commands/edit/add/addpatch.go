@@ -20,11 +20,11 @@ import (
 	"errors"
 	"log"
 
+	"github.com/damienr74/kustomize/v3/pkg/commands/edit/util"
+	"github.com/damienr74/kustomize/v3/pkg/commands/kustfile"
+	"github.com/damienr74/kustomize/v3/pkg/fs"
+	"github.com/damienr74/kustomize/v3/pkg/patch"
 	"github.com/spf13/cobra"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/edit/util"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/kustfile"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/patch"
 )
 
 type addPatchOptions struct {

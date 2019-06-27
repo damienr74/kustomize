@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"unicode/utf8"
 
+	"github.com/damienr74/kustomize/v3/pkg/types"
 	"k8s.io/api/core/v1"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
 )
 
 func makeFreshConfigMap(

@@ -9,17 +9,17 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/internal/loadertest"
-	"sigs.k8s.io/kustomize/v3/k8sdeps/kunstruct"
-	"sigs.k8s.io/kustomize/v3/k8sdeps/transformer"
-	"sigs.k8s.io/kustomize/v3/pkg/loader"
-	"sigs.k8s.io/kustomize/v3/pkg/pgmconfig"
-	"sigs.k8s.io/kustomize/v3/pkg/plugins"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
-	"sigs.k8s.io/kustomize/v3/pkg/target"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers/config/defaultconfig"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
+	"github.com/damienr74/kustomize/v3/internal/loadertest"
+	"github.com/damienr74/kustomize/v3/k8sdeps/kunstruct"
+	"github.com/damienr74/kustomize/v3/k8sdeps/transformer"
+	"github.com/damienr74/kustomize/v3/pkg/loader"
+	"github.com/damienr74/kustomize/v3/pkg/pgmconfig"
+	"github.com/damienr74/kustomize/v3/pkg/plugins"
+	"github.com/damienr74/kustomize/v3/pkg/resmap"
+	"github.com/damienr74/kustomize/v3/pkg/resource"
+	"github.com/damienr74/kustomize/v3/pkg/target"
+	"github.com/damienr74/kustomize/v3/pkg/transformers/config/defaultconfig"
+	"github.com/damienr74/kustomize/v3/pkg/types"
 )
 
 // KustTestHarness helps test kustomization generation and transformation.

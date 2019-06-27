@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
+	"github.com/damienr74/kustomize/v3/pkg/fs"
 )
 
 func TestSetImage(t *testing.T) {

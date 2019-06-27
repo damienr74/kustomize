@@ -4,12 +4,12 @@
 package main
 
 import (
+	"github.com/damienr74/kustomize/v3/pkg/ifc"
+	"github.com/damienr74/kustomize/v3/pkg/resmap"
+	"github.com/damienr74/kustomize/v3/pkg/transformers"
+	"github.com/damienr74/kustomize/v3/pkg/transformers/config"
+	"github.com/damienr74/kustomize/v3/plugin/builtin"
 	"github.com/pkg/errors"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers/config"
-	"sigs.k8s.io/kustomize/v3/plugin/builtin"
 	"sigs.k8s.io/yaml"
 )
 

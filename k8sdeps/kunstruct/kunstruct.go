@@ -20,13 +20,13 @@ package kunstruct
 import (
 	"encoding/json"
 	"fmt"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
+	"github.com/damienr74/kustomize/v3/pkg/types"
 
+	"github.com/damienr74/kustomize/v3/pkg/gvk"
+	"github.com/damienr74/kustomize/v3/pkg/ifc"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
-	"sigs.k8s.io/kustomize/v3/pkg/gvk"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
 )
 
 var _ ifc.Kunstructured = &UnstructAdapter{}
